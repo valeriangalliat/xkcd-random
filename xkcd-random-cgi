@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+printf 'Location: '
+xkcd-random
+echo ''
