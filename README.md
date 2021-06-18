@@ -2,6 +2,12 @@
 
 > Get a random xkcd, CLI or as a service.
 
+## Overview
+
+This was created following [this tweet](https://twitter.com/valeriangalliat/status/685954780913659905),
+allowing this service to be used as a random image placeholder service
+taking images from [xkcd](https://xkcd.com/).
+
 ## Installation
 
 Add the repository directory to your `PATH`.

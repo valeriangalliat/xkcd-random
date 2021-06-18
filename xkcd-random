@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
-curl -sL 'http://c.xkcd.com/random/comic/' \
+curl -sL 'https://c.xkcd.com/random/comic/' \
     | sed -n '/id="comic"/{N;s/.*src="/http:/;s/".*//;p;}'
